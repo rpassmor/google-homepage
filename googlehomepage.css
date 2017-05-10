@@ -1,0 +1,95 @@
+
+#cgl {
+  position: relative;
+  text-align: center;
+  height: 850px;
+}
+#navgroup ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+
+}
+.navbar li {
+  float: right;
+}
+.navbar li a {
+  display: block;
+  color: Black;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 14px;
+}
+li a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+.navbar {
+  position: relative;
+  top: 4px;
+}
+.notification {
+  position: relative;
+  float: right;
+  padding: 0 10px 0 10px;
+  margin-top: 4px;
+}
+.notification:hover{
+  opacity: 0.5;
+}
+.profilepic {
+  border-radius: 50%;
+  height: 30px; width: 30px;
+  float: right;
+  margin: 0 10px 0 10px;
+}
+.searchbar {
+  background-color: #fff;
+  border-color: gray;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  font-size: 1.8em;
+  line-height: 1px 1px 4px 1px;
+  width: 450px;
+}
+.button {
+  background-color: lightgray;
+  margin: 20px 15px 5px 15px;
+  position: relative;
+  border-color: lightgray;
+  height: 40px; width: 125px;
+  font-size: 0.7em;
+  color: gray;
+  font-weight: 900;
+}
+.button:hover {
+  border-color: black;
+  color: black;
+}
+.footer {
+  position: static;
+  bottom: 10px;
+  height: 30px;
+  background-color: #008B8B;
+}
+#footerleft ul {
+  position: absolute;
+  list-style-type: none;
+  position: fixed;
+  bottom: 5px;
+  margin: 0;
+}
+#footerleft li {
+  float:left;
+}
+#footerleft li a{
+  display: block;
+  color: black;
+  text-align: center;
+  margin: 4px 20px 6px 20px;
+  text-decoration: none;
+  color: white;
+}
